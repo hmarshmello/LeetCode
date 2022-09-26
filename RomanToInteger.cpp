@@ -1,3 +1,8 @@
+#include <iostream>
+#include <iterator>
+#include <unordered_map>
+using namespace std;
+
 class Solution {
 public:
     int romanToInt(string s) {
@@ -16,5 +21,10 @@ public:
         }
        return value; 
     }
-};
+}s1;
 
+int main(){
+    string s; cin >> s;
+    s1.romanToInt(s);
+    return 0;
+}
